@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "web-chat-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/webChat/WebChatApplicationCustomizer.js",
+          "manifest": "./src/extensions/webChat/WebChatApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WebChatApplicationCustomizerStrings": "lib/extensions/webChat/loc/{locale}.js"
+  }
+}

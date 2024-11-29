@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="WebChat"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="bd8c84d5-8721-4b94-8d48-98b57819fb15"
+        ClientSideComponentProperties="{&quot;directLineToken&quot;:&quot;<YOUR_DIRECT_LINE_TOKEN>&quot;}">
+    </CustomAction>
+</Elements>

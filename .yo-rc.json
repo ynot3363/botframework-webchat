@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.3",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "bot-framework-web-chat",
+    "libraryId": "f9a320c3-8714-4a35-925d-9ef06a7b6962",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "bot-framework-web-chat",
+    "solutionShortDescription": "bot-framework-web-chat description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}
